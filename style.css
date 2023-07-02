@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:aqua;
+    background-image: url(images/temp.png);
+    image-resolution: 400px;
+    background-repeat: no-repeat;
+    background-position: calc(250px);
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin: 250px;
+    width: 800px;
+    height: 600px;
+    text-align: right;
+    font-weight: bolder;
+}
+input[type="number"]{
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#result{
+    font-weight: bold;
+    margin-top: 20px 10px;
+}
